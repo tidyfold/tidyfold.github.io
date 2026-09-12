@@ -23,3 +23,10 @@ code { background: var(--line); padding: 1px 6px; border-radius: 5px; font-size:
 footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
 footer a { color: inherit; }
 .small { color: var(--muted); font-size: 14px; }
+
+.hero { display:block; margin: 36px 0 0; }
+.hero img { width:100%; height:auto; border-radius: 12px; border: 1px solid var(--line); box-shadow: 0 20px 60px rgba(0,0,0,.12); }
+.shots { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin: 16px 0 8px; }
+.shots figure { margin:0; }
+.shots img { width:100%; height:auto; border-radius: 10px; border: 1px solid var(--line); }
+.shots figcaption { margin-top: 8px; font-size: 13px; color: var(--muted); line-height: 1.45; }
