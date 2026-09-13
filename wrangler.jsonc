@@ -2,7 +2,7 @@
 // Deployed by Workers Builds on every push to main (deploy command: npx wrangler deploy).
 {
   "$schema": "https://unpkg.com/wrangler/config-schema.json",
-  "name": "tidyfold",
+  "name": "tidyfold-github-io",
   "compatibility_date": "2026-09-01",
   "assets": {
     "directory": "./",
