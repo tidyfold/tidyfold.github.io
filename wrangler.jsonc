@@ -1,0 +1,16 @@
+// Cloudflare Workers config: static site served from this repo's root.
+// Deployed by Workers Builds on every push to main (deploy command: npx wrangler deploy).
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "tidyfold",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  "routes": [
+    { "pattern": "tidyfoldapp.com", "custom_domain": true },
+    { "pattern": "www.tidyfoldapp.com", "custom_domain": true }
+  ]
+}

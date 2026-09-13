@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tidyfoldapp.com/sitemap.xml
