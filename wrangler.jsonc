@@ -9,6 +9,7 @@
     "html_handling": "auto-trailing-slash"
   },
   "routes": [
-    { "pattern": "tidyfoldapp.com", "custom_domain": true }
+    { "pattern": "tidyfoldapp.com", "custom_domain": true },
+    { "pattern": "www.tidyfoldapp.com", "custom_domain": true }
   ]
 }
